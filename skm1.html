@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" ng-app="skm">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="X-UA-Compatible" content="IE=100" />
+      <title>SKM Search</title>
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <script src="lib/jquery.js"></script>
+      <script src="lib/angular/angular.js"></script> 
+      <script src="lib/angular/angular-route.js"></script>
+      <script src="lib/bootstrap.js"></script>
+      <script src="lib/angular/ui-bootstrap-tpls-0.9.0.min.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/routes.js"></script>
+      <script src="js/constants.js"></script>
+      <script src="js/controllers/MainSearchController.js"></script>
+      <script src="js/controllers/ModalController.js"></script>
+      <script src="js/services/EmailSearchService.js"></script>
+      <script src="js/util/popup-modal.js"></script>
+      <script src="js/filters/dateFilter.js"></script>
+      <script src="js/filters/adhocStringReplacementFilter.js"></script>
+      <script src="js/directives/filterDirective.js"></script>
+   </head>
+   <body ng-controller="mainSearchController" data-spy="scroll" data-target=".bs-docs-sidebar" >
+      <!-- Start :  Navigation bar   -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed margin-button"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <form class="navbar-form navbar-left  mobile-form" role="search" ng-submit="search(true)">
+                  <div class="navbar-group input-group logoMargin">
+                     <span class="input-group-addon pointer"> 
+                     <b>SKM</b>
+                     </span>
+                     <input type="text" class="form-control" placeholder="Search" ng-model='query'>
+                     <span class="input-group-addon pointer" ng-click='search(true)' id="searchButton">
+                     <img src="img/search_icon.gif"/>
+                     </span>
+                  </div>
+               </form>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="mobileMenu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#/approchSearch" ng-click="setSearchParams('approach')">Approaches</a></li>
+                  <li><a href="#/productSearch" ng-click="setSearchParams('product')">Products</a></li>
+                  <li><a href="#/documentSearch" ng-click="setSearchParams('document')">Documents</a></li>
+                  <li><a href="#/vehicleSearch" ng-click="setSearchParams('vehicle')">Vehicles</a></li>
+                  <li><a href="#/emailSearch" ng-click="setSearchParams('email')">Emails</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <!-- End :  Navigation bar  -->
+      <!-- Start : main content div showing facet + table  -->
+      <div class="container" style="margin-top:55px;">
+         <div class="cover" ng:class="{hiddenElement : hideSpinner}">
+            <img alt="Loading.." src="img/spinner.gif"   class="loderImage">
+         </div>
+         
+         <!-- Start : content divison , contains filter button + result table -->
+         <div  ng-hide="emptyPage">
+            <!-- Start : Filters  -->
+            <table class="filterClass">
+               <tr>
+                  <td>
+                     <div class="btn btn-default" id="popupBtn" >
+                        <img alt="Filter >>" src="img/filters.png" width="30" height="20" >
+                     </div>
+                  </td>
+                  <td>
+                     <selectedfilter/>
+                  </td>
+               </tr>
+            </table>
+            <!--  end : result table , mobile view -->
+            <div ng-view></div>
+         </div>
+         <!-- End : content divison , contains filter button + result table -->
+         <!-- Start : facet popup , contains facet groups  -->
+         <!-- End : facet popup , contains facet groups  -->
+      </div>
+      <!-- End : main content div showing facet + table  -->
+      
+   </body>
+</html>

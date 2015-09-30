@@ -1,0 +1,85 @@
+<div class="table-responsive desktopView" ng-cloak>
+               <table class="table">
+                  <thead>
+                     <tr>
+                        <th> 
+                           <b>Threads</b>
+                        </th>
+                        <th> 
+                           <b>Author</b>
+                        </th>
+                        <th> 
+                           <b>Date</b>
+                        </th>
+                        <th> 
+                           <b>Title</b>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr ng-repeat = "result in resultData.displayResult" >
+                        <td>
+                           <span ng-click="toggleRowVisibility(result.res_id)">
+                           <img src="img/plus.gif" ng-hide="rowVisibilityIndexes[result.res_id]"/>
+                           <img src="img/minus.gif" ng-show="rowVisibilityIndexes[result.res_id]"/>
+                           </span>
+                           {{result.res_thread}}
+                        </td>
+                        <td>
+                           {{result.res_author}}
+                           <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                              <div ng-repeat="indivisualEmail in result.res_email_list ">
+                                 <div>{{indivisualEmail.author}} </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td>
+                           {{result.res_date}}
+                           <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                              <div  ng-repeat="indivisualEmail in result.res_email_list ">
+                                 <div >{{indivisualEmail.date}} </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td>
+                           {{result.res_title}}
+                           <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                              <div  ng-repeat="indivisualEmail in result.res_email_list ">
+                                 <div >
+                                    <a target="_blank" href='{{indivisualEmail.link}}'>{{indivisualEmail.title}}</a> 
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <!-- End : result table  -->
+            <!--  Start : result table , mobile view -->
+            <div class="mobileView">
+               <accordion close-others="true">
+                  <accordion-group  ng-repeat = "result in resultData.displayResult" >
+                     <accordion-heading>
+                        <div class="accordion-heading-content pointer" ng:class="{collapsed: section.isOpen}">
+                           <div class="roundCircle"> {{result.res_thread}}</div>
+                           <span class="wrap-text">{{result.res_title}}</span>
+                        </div>
+                     </accordion-heading>
+                     <accordion-body>
+                        <div ng-repeat="indivisualEmail in result.res_email_list ">
+                           <div  class="secondary-text">
+                              <a target="_blank" href='{{indivisualEmail.link}}'>    <span class="wrap-text">{{indivisualEmail.title}}</span>  </a>
+                           </div>
+                           <div>
+                              <div class="secondary-text">
+                                 <span> {{indivisualEmail.author}}</span><span class="pull-right">{{indivisualEmail.date | dateFilter}}</span>
+                              </div>
+                           </div>
+                        </div>
+                     </accordion-body>
+                  </accordion-group>
+               </accordion>
+            </div>
+<div ng-include="'js/templates/popupTemplate.html'"></div>
+         <!-- End : facet popup , contains facet groups  -->

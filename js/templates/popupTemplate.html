@@ -1,0 +1,47 @@
+ <div id="popup" class="modal">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="filter-popup-modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="filter-popup-modal-body">
+                  <accordion close-others="oneAtATime">
+                     <accordion-group
+                        ng-repeat="facetItem in resultData.facets"
+                        is-open="facetItem.isOpen">
+                        <accordion-heading>
+                           <div class="accordion-heading-content pointer"
+                              ng:class="{collapsed: section.isOpen}">
+                              {{facetItem.facet_header}}
+                           </div>
+                        </accordion-heading>
+                        <accordion-body>
+                           <div ng-repeat="facetElement in  facetItem.facet_elements" >
+                              <li ng-if="facetItem.facet_single_select" ng-click="addFacet(facetElement , selectRow , facetItem.facet_header , facetItem.facet_single_select  )">
+                                 <label>
+                                 <input type="radio" name="{{facetItem.facet_header}}">
+                                 <span  class="pointer"   ng:class="{selectFilter : selectRow }">{{facetElement}}
+                                 </span>
+                                 </label>
+                              </li>
+                              <li ng-click="addFacet(facetElement  , selectRow , facetItem.facet_header  , facetItem.facet_single_select    )" ng-if="!facetItem.facet_single_select">
+                                 <input type="checkbox" ng-model="selectRow">
+                                 <span  class="pointer" 
+                                    ng-click="selectRow = !selectRow"
+                                    ng:class="{selectFilter : selectRow }">{{facetElement}}
+                                 </span>
+                              </li>
+                           </div>
+                        </accordion-body>
+                     </accordion-group>
+                  </accordion>
+               </div>
+               <div class="filter-popup-modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"
+                     ng-click="search()">Search</button>
+                  <button class="btn btn-primary" data-dismiss="modal"
+                     ng-click="clearFilter()">Clear All</button>
+               </div>
+            </div>
+         </div>
+      </div>

@@ -1,0 +1,2847 @@
+{
+  "facets": [
+    {
+      "facet_header": "Asset Class",
+      "facet_single_select": true,
+      "facet_elements": [
+        "Equity(75)",
+        "Fixed Income(309)",
+        "Multi-Strategy(6)"
+      ]
+    },
+    {
+      "facet_header": "Date",
+      "facet_single_select": true,
+      "facet_elements": [
+        "Last 24 Hours(2)",
+        "Last 30 Days(45)",
+        "Last 6 Months(220)",
+        "Last 1 Year(386)"
+      ]
+    },
+    {
+      "facet_header": "Distribution List",
+      "facet_single_select": false,
+      "facet_elements": [
+        "AA Trades(5)",
+        "AAPM – Opportunistic Team(4)",
+        "Asset Allocation(52)",
+        "Client Flow(1)",
+        "Commodities(1)",
+        "Compliance New Accts/Guideline Changes(1)",
+        "Corporate Actions(2)",
+        "DMT_Notifications(2)",
+        "EMD TEAM(11)",
+        "EMDPM(9)",
+        "ESG Interest Group(1)",
+        "Equity Portfolio Coordinators(1)",
+        "Equity Product Management(21)",
+        "FI Focus(2)",
+        "FIPM - AsiaPAC(1)",
+        "FIPM - Credit(12)",
+        "FIPM - EMD(218)",
+        "FIPM - FRM(1)",
+        "FIPM - GFI(65)",
+        "FIPM - HY/Bank Loans(1)",
+        "FIPM - MBS/Structured(1)",
+        "FIPM - Short Duration(1)",
+        "FIPM - US Broad Markets(14)",
+        "FRM Portfolio Analysts(1)",
+        "FX Snippets(10)",
+        "GBPM(19)",
+        "GCM(1)",
+        "GIPS Team(1)",
+        "GPS-Equity(1)",
+        "GPS-Fixed Income(10)",
+        "GPS_Benchmark Team(3)",
+        "GRG - Americas Institutional Group Dedicated Team(4)",
+        "GRG - Asia Pacific Dedicated Team(14)",
+        "GRG - Asia Pacific Interest Group(1)",
+        "GRG - Business Managers(8)",
+        "GRG - CPC Client Reporting(1)",
+        "GRG - CPC Inv Rptg - EMD Team(45)",
+        "GRG - CPC Inv Rptg - Fixed Income(20)",
+        "GRG - CPC Inv Rptg - Tokyo(11)",
+        "GRG - CRA Fixed Income(136)",
+        "GRG - Client Administration EMEA/UK(1)",
+        "GRG - Client Integration Managers(1)",
+        "GRG - Client Integration and Administration Asia(10)",
+        "GRG - GCAPS Japan(230)",
+        "GRG - Global Consultant Rel. Dedicated Team(2)",
+        "GRG - JFIG (GFIG) Dedicated Team(146)",
+        "GRG - Leadership Group(10)",
+        "GRG - US Administrative Assistants(44)",
+        "GRG - US Analysts(44)",
+        "GRG - US Managers(44)",
+        "GRG - Worldwide(10)",
+        "GRM - RMs(1)",
+        "Germany-Austria Team(1)",
+        "Global Bond PA(2)",
+        "Global Equity Bus Mgmt(1)",
+        "Global Markets(3)",
+        "Global Opps - EPM(1)",
+        "Global Opps. Bus.(11)",
+        "Global Performance Services(3)",
+        "Hartford Analysts(1)",
+        "Hedge Fund Group(43)",
+        "Hedge Fund Managers(5)",
+        "IIG Fixed Income(3)",
+        "IIG Tokyo(49)",
+        "IM-Research Forum(1)",
+        "Investment Analytics(6)",
+        "Investment Marketing(1)",
+        "Investment Personnel(3)",
+        "Investment Products and Strategies(52)",
+        "Investment Support Liaison(3)",
+        "JAO_SKM(2)",
+        "JSS(1)",
+        "Kinpou(6)",
+        "Legal Compliance London(1)",
+        "Legal Services Fixed Income(1)",
+        "Operational Risk Mgt(1)",
+        "Regulatory Compliance(1)",
+        "Research Portfolios Interest Group(1)",
+        "SKM - EMD(1)",
+        "SKM Asia Contrarian(1)",
+        "SKM JSCE(1)",
+        "SKM Japan Eq(1)",
+        "San Francisco(1)",
+        "Tokyo - Financial BG-BDRM(44)",
+        "Tokyo-EPM(10)",
+        "Tokyo-FIPM(82)",
+        "Tokyo-Financial BG(60)",
+        "Tokyo-GRG-CSA(228)",
+        "Tokyo-GRG-Pension(110)",
+        "Tokyo-Pension BG(15)",
+        "Tokyo-Product Management(4)",
+        "TowersWatson(1)",
+        "USMST(1)",
+        "USMST PAs(4)"
+      ]
+    },
+    {
+      "facet_header": "Author",
+      "facet_single_select": false,
+      "facet_elements": [
+        "Aikawa, Tatsuya(4)",
+        "Barrett, George M(1)",
+        "Bloch, Christopher P(8)",
+        "Bloom, Valerie A(1)",
+        "Brown, Jake T(1)",
+        "Chappell, Darren R(2)",
+        "Chin, Ignatius(23)",
+        "Cristoforo, Marie A(3)",
+        "Dacosta, John(1)",
+        "Eastman, Jason C(2)",
+        "Epee-Bounya, Sam(1)",
+        "Evans, Christopher E(2)",
+        "Francis, Sherman W(1)",
+        "Frazier, Stephanie(3)",
+        "Geary, Scott C(1)",
+        "Gelwick, Robert M(2)",
+        "Geraci, Christina R(15)",
+        "Giberti, Matthew(1)",
+        "Gravina, Kevin R(2)",
+        "Gukasyan, Tigran(3)",
+        "Harada, Masaaki(4)",
+        "Hennessy, Sean P(3)",
+        "Hernandez, Cristina A(1)",
+        "Herold, Jeffrey(1)",
+        "Hnat-Dembitz, Marena(18)",
+        "Hollebone, Caitlin K(1)",
+        "Huber, Michael(2)",
+        "Inci, Umut(1)",
+        "Isobe, Tsunao(7)",
+        "Kamo, Taro(6)",
+        "Klocek, James M(1)",
+        "Kobayashi, Maiko(33)",
+        "Leonard, Neil J(2)",
+        "Lord, Jeanne A(8)",
+        "Madden, Courtney B(1)",
+        "Majury, Kimberley S(1)",
+        "Matsumoto, Kyoko(1)",
+        "Merriweather, Shane(1)",
+        "Miura, Saiko(19)",
+        "Miyawaki, Nobusuke(2)",
+        "Monisov, Vadim(1)",
+        "Mori, Shuji(2)",
+        "Murphy, John J Im(2)",
+        "Nahapetyan, Vahan(61)",
+        "Neely, Maura A(1)",
+        "Nishiyama, Aoi(1)",
+        "Niwa, Kazu(2)",
+        "Odence, Charles L(8)",
+        "Ogikubo, Mizuho(26)",
+        "Okuno, Masaki(2)",
+        "Randolph, Emma(8)",
+        "Ross, Andrew(9)",
+        "Saito, Tatsumi(13)",
+        "Sheehy, Elizabeth B(7)",
+        "Shey, Valerie(1)",
+        "Suzuki, Akane(1)",
+        "Tipnis, Ketki(1)",
+        "Tran, Quyen V(1)",
+        "Ueki, Hideo(1)",
+        "Waine, Andrew(1)",
+        "Wang, Lisha(1)",
+        "Weisberg, Gwen M(46)",
+        "Williams, Clive(2)",
+        "Yamamoto, Keishi(2)"
+      ]
+    }
+  ],
+  "displayResult": [
+    {
+      "res_id": "grp_id1",
+      "res_thread": 1,
+      "res_author": "Kobayashi, Maiko",
+      "res_date": "12/02/2014 04:13 AM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-11",
+      "res_email_list": [
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-11",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-11",
+          "date": "12/02/2014 04:13 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id2",
+      "res_thread": 5,
+      "res_author": "Miura, Saiko",
+      "res_date": "12/02/2014 02:22 AM",
+      "res_title": "GDN usage in ELD portfolios",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "RE: GDN usage in ELD portfolios",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=19060",
+          "date": "12/02/2014 02:22 AM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: GDN usage in ELD portfolios",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18606",
+          "date": "11/21/2014 07:56 AM"
+        },
+        {
+          "author": "Miura, Saiko",
+          "title": "RE: GDN usage in ELD portfolios",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18270",
+          "date": "11/17/2014 05:53 AM"
+        },
+        {
+          "author": "Neely, Maura A",
+          "title": "RE: GDN usage in ELD portfolios",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18247",
+          "date": "11/16/2014 09:13 AM"
+        },
+        {
+          "author": "Miura, Saiko",
+          "title": "GDN usage in ELD portfolios",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/GDN usage in ELD portfolios",
+          "date": "11/14/2014 00:00 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id3",
+      "res_thread": 2,
+      "res_author": "Kobayashi, Maiko",
+      "res_date": "11/27/2014 02:42 AM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-11",
+      "res_email_list": [
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-11",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-11 4780",
+          "date": "11/27/2014 02:42 AM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-11",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-11",
+          "date": "11/11/2014 08:53 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id4",
+      "res_thread": 1,
+      "res_author": "Francis, Sherman W",
+      "res_date": "11/25/2014 08:58 AM",
+      "res_title": "October 2014 Stock Commentary",
+      "res_email_list": [
+        {
+          "author": "Francis, Sherman W",
+          "title": "October 2014 Stock Commentary",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/October 2014 Stock Commentary",
+          "date": "11/25/2014 08:58 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id5",
+      "res_thread": 1,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "11/25/2014 05:25 AM",
+      "res_title": "[RFP from Kokusai] CoCo mandate (internal due: 24 November Boston time)",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: [RFP from Kokusai] CoCo mandate (internal due: 24 November Boston time)",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18767",
+          "date": "11/25/2014 05:25 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id6",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "11/14/2014 08:47 AM",
+      "res_title": "Replay available: LDI Quarterly Webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Replay available: LDI Quarterly Webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Replay available LDI Quarterly webcast 2259",
+          "date": "11/14/2014 08:47 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id7",
+      "res_thread": 3,
+      "res_author": "Miura, Saiko",
+      "res_date": "11/13/2014 06:43 PM",
+      "res_title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Nov 13",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "RE: <Transaction Commentary Update request> NRKN EMD, 9574, Due: Nov 13",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18116",
+          "date": "11/13/2014 06:43 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Transaction Commentary Update request> NRKN EMD, 9574, Due: Nov 13",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18111",
+          "date": "11/13/2014 06:27 PM"
+        },
+        {
+          "author": "Miura, Saiko",
+          "title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Nov 13",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Transaction Commentary Update request NRKN EMD, 9574, Due Nov 13",
+          "date": "11/06/2014 08:34 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id8",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/13/2014 06:43 PM",
+      "res_title": "NRKN ELD monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "NRKN ELD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD monthly letter 5544",
+          "date": "11/13/2014 06:43 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id9",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "11/13/2014 02:02 PM",
+      "res_title": "You’re invited: Commodities Forum 20/20 – Wednesday, January 14",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Commodities Forum 20/20 – Wednesday, January 14",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Commodities Forum 2020 (Wed, January 14) – Agenda and invitation mailing ACTION REQUESTED",
+          "date": "11/13/2014 02:02 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id10",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "11/13/2014 11:31 AM",
+      "res_title": "Today at 2:00 pm EST - LDI Quarterly Webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Today at 2:00 pm EST - LDI Quarterly Webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Today at 200pm LDI Quarterly webcast",
+          "date": "11/13/2014 11:31 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id11",
+      "res_thread": 3,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/12/2014 06:11 PM",
+      "res_title": "Nikko ELILD Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: Nikko ELILD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18016",
+          "date": "11/12/2014 06:11 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD Monthly Letter 7594",
+          "date": "11/11/2014 05:56 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD Monthly Letter",
+          "date": "05/13/2014 05:17 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id12",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/12/2014 05:53 PM",
+      "res_title": "WMP Dub OEMD JPY Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "WMP Dub OEMD JPY Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP Dub OEMD JPY Monthly Letter",
+          "date": "11/12/2014 05:53 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id13",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/12/2014 05:49 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-10",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=18012",
+          "date": "11/12/2014 05:49 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-10",
+          "date": "11/06/2014 04:10 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id14",
+      "res_thread": 1,
+      "res_author": "Geraci, Christina R",
+      "res_date": "11/12/2014 03:31 AM",
+      "res_title": "early fx snap - UK 1/4ly inflation report",
+      "res_email_list": [
+        {
+          "author": "Geraci, Christina R",
+          "title": "early fx snap - UK 1/4ly inflation report",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/early fx snap - UK 14ly inflation report",
+          "date": "11/12/2014 03:31 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id15",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "11/11/2014 10:00 AM",
+      "res_title": "View the webcast replay: The evolution of corporate bond liquidity: The good, the bad, and the ugly",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "View the webcast replay: The evolution of corporate bond liquidity: The good, the bad, and the ugly",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Webcast replay - The evolution of corporate bond liquidity The good, the bad, and the ugly",
+          "date": "11/11/2014 10:00 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id16",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/10/2014 07:45 PM",
+      "res_title": "Kokusai & Mizuho EMD Monthly Letters",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Kokusai & Mizuho EMD Monthly Letters",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Kokusai  Mizuho EMD Monthly Letters",
+          "date": "11/10/2014 07:45 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id17",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/10/2014 07:45 PM",
+      "res_title": "NRKN EMD Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "NRKN EMD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN EMD Monthly Letter 3479",
+          "date": "11/10/2014 07:45 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id18",
+      "res_thread": 6,
+      "res_author": "Chin, Ignatius",
+      "res_date": "11/10/2014 02:04 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-10",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17810",
+          "date": "11/10/2014 02:04 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17718",
+          "date": "11/07/2014 02:32 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17709",
+          "date": "11/07/2014 01:14 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17653",
+          "date": "11/07/2014 03:28 AM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17635",
+          "date": "11/06/2014 06:13 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-10",
+          "date": "10/31/2014 02:32 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id19",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "11/10/2014 09:02 AM",
+      "res_title": "Reminder: Today at 11:00am: \"The evolution of corporate bond liquidity: The good, the bad, and the ugly” webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Reminder: Today at 11:00am: \"The evolution of corporate bond liquidity: The good, the bad, and the ugly” webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Today at 1100am The evolution of corporate bond liquidity The good, the bad, and the ugly” webcast",
+          "date": "11/10/2014 09:02 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id20",
+      "res_thread": 1,
+      "res_author": "Herold, Jeffrey",
+      "res_date": "11/10/2014 08:39 AM",
+      "res_title": "New Account: $80m Linde Global Quality Growth (62T2) **Update**",
+      "res_email_list": [
+        {
+          "author": "Herold, Jeffrey",
+          "title": "RE: New Account: $80m Linde Global Quality Growth (62T2) **Update**",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/New Account $80m Linde Global Quality Growth (62T2) Update",
+          "date": "11/10/2014 08:39 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id21",
+      "res_thread": 4,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "11/10/2014 00:53 AM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-10",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17747",
+          "date": "11/10/2014 00:53 AM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17463",
+          "date": "11/05/2014 07:56 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-10 4563",
+          "date": "10/31/2014 04:22 AM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-10",
+          "date": "10/08/2014 01:43 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id22",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/07/2014 04:48 PM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-10",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Kokusai ELD 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=17729",
+          "date": "11/07/2014 04:48 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-10",
+          "date": "11/04/2014 03:05 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id23",
+      "res_thread": 1,
+      "res_author": "Hennessy, Sean P",
+      "res_date": "11/07/2014 07:54 AM",
+      "res_title": "MSCI 2014 November Semi-Annual Index Review",
+      "res_email_list": [
+        {
+          "author": "Hennessy, Sean P",
+          "title": "MSCI 2014 November Semi-Annual Index Review",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/MSCI 2014 November Semi-Annual Index Review",
+          "date": "11/07/2014 07:54 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id24",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "11/07/2014 02:52 AM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-10",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 2014-10",
+          "date": "11/07/2014 02:52 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id25",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/06/2014 05:27 PM",
+      "res_title": "Nomura EMD Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nomura EMD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nomura EMD Monthly Letter 6999",
+          "date": "11/06/2014 05:27 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nomura EMD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nomura EMD Monthly Letter 2371",
+          "date": "10/03/2014 03:45 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id26",
+      "res_thread": 1,
+      "res_author": "Eastman, Jason C",
+      "res_date": "11/06/2014 03:46 PM",
+      "res_title": "MTL | OE | Monthly Review of Underlying PM Positioning Changes in OE | Oct 2014",
+      "res_email_list": [
+        {
+          "author": "Eastman, Jason C",
+          "title": "MTL | OE | Monthly Review of Underlying PM Positioning Changes in OE | Oct 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  AA/MTL  OE  Monthly Review of Underlying PM Positioning Changes in OE  Oct 2014",
+          "date": "11/06/2014 03:46 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id27",
+      "res_thread": 1,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "11/05/2014 04:20 AM",
+      "res_title": "Honda CPF EMD 3Q14 positioning change / attribution /plan-do-see",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: Honda CPF EMD 3Q14 positioning change / attribution /plan-do-see",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda CPF EMD 3Q14 positioning change  attribution plan-do-see",
+          "date": "11/05/2014 04:20 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id28",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "11/03/2014 06:44 PM",
+      "res_title": "Honda CPF EMD 3Q14 positioning change slide",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Honda CPF EMD 3Q14 positioning change slide",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda CPF EMD 3Q14 positioning change slide",
+          "date": "11/03/2014 06:44 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id29",
+      "res_thread": 1,
+      "res_author": "Bloom, Valerie A",
+      "res_date": "11/03/2014 02:50 PM",
+      "res_title": "Japan Alpha Opportunities - Strategy Overview",
+      "res_email_list": [
+        {
+          "author": "Bloom, Valerie A",
+          "title": "Japan Alpha Opportunities - Strategy Overview",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Japan Alpha Opportunities - Strategy Overview",
+          "date": "11/03/2014 02:50 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id30",
+      "res_thread": 5,
+      "res_author": "Hnat-Dembitz, Marena",
+      "res_date": "11/03/2014 01:58 PM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+      "res_email_list": [
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-09 8402",
+          "date": "11/03/2014 01:58 PM"
+        },
+        {
+          "author": "Randolph, Emma",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15497",
+          "date": "10/08/2014 00:30 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15228",
+          "date": "10/06/2014 04:14 AM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15139",
+          "date": "10/03/2014 09:34 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-09",
+          "date": "09/29/2014 11:09 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id31",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "10/30/2014 11:02 AM",
+      "res_title": "Action required: LDI Quarterly webcast - November 13",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: LDI Quarterly webcast - November 13",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required LDI Quarterly webcast - November 13",
+          "date": "10/30/2014 11:02 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id32",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "10/29/2014 10:01 AM",
+      "res_title": "Action required: \"The evolution of corporate bond liquidity: The good, the bad, and the ugly” webcast - Monday, November 10",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: \"The evolution of corporate bond liquidity: The good, the bad, and the ugly” webcast - Monday, November 10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required The evolution of corporate bond liquidity The good, the bad, and the ugly” webcast - Monday, November 10",
+          "date": "10/29/2014 10:01 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id33",
+      "res_thread": 3,
+      "res_author": "Gukasyan, Tigran",
+      "res_date": "10/28/2014 03:58 PM",
+      "res_title": "Commentary for SMTB Spreadhsheets",
+      "res_email_list": [
+        {
+          "author": "Gukasyan, Tigran",
+          "title": "RE: Commentary for SMTB Spreadhsheets",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=16949",
+          "date": "10/28/2014 03:58 PM"
+        },
+        {
+          "author": "Harada, Masaaki",
+          "title": "RE: Commentary for SMTB Spreadhsheets",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Commentary for SMTB Spreadhsheets 8827",
+          "date": "10/27/2014 02:55 AM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Commentary for SMTB Spreadhsheets",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Commentary for SMTB Spreadhsheets",
+          "date": "10/24/2014 06:36 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id34",
+      "res_thread": 1,
+      "res_author": "Evans, Christopher E",
+      "res_date": "10/27/2014 01:24 PM",
+      "res_title": "Payment information: 144 & RgSS Exchanges ==> 4 Lines of Petroleos Mexi",
+      "res_email_list": [
+        {
+          "author": "Evans, Christopher E",
+          "title": "Payment information: 144 & RgSS Exchanges ==> 4 Lines of Petroleos Mexi",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Payment information 144  RgSS Exchanges == 4 Lines of Petroleos Mexi",
+          "date": "10/27/2014 01:24 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id35",
+      "res_thread": 1,
+      "res_author": "Ueki, Hideo",
+      "res_date": "10/23/2014 08:13 AM",
+      "res_title": "Tokyo Investor Meeting Notes - Q3'14 update",
+      "res_email_list": [
+        {
+          "author": "Ueki, Hideo",
+          "title": "FW: Tokyo Investor Meeting Notes - Q3'14 update",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Tokyo Investor Meeting Notes - Q3'14 update",
+          "date": "10/23/2014 08:13 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id36",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/22/2014 06:35 PM",
+      "res_title": "Honda CPF EMD Transaction Commentary",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: Honda CPF EMD Transaction Commentary",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=16554",
+          "date": "10/22/2014 06:35 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "Honda CPF EMD Transaction Commentary",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda CPF EMD Transaction Commentary",
+          "date": "10/21/2014 10:17 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id37",
+      "res_thread": 2,
+      "res_author": "Kobayashi, Maiko",
+      "res_date": "10/21/2014 02:27 AM",
+      "res_title": "Honda CPF EMD and Kokusai EMS Bond quarterly letters",
+      "res_email_list": [
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "RE: Honda CPF EMD and Kokusai EMS Bond quarterly letters",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=16402",
+          "date": "10/21/2014 02:27 AM"
+        },
+        {
+          "author": "Gukasyan, Tigran",
+          "title": "Honda CPF EMD and Kokusai EMS Bond quarterly letters",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda CPF EMD and Kokusai EMS Bond quarterly letters",
+          "date": "10/20/2014 05:33 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id38",
+      "res_thread": 1,
+      "res_author": "Evans, Christopher E",
+      "res_date": "10/15/2014 04:30 PM",
+      "res_title": "144 & RgSS Exchanges ==> 4 Lines of Petroleos Mexi",
+      "res_email_list": [
+        {
+          "author": "Evans, Christopher E",
+          "title": "144 & RgSS Exchanges ==> 4 Lines of Petroleos Mexi",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/144  RgSS Exchanges == 4 Lines of Petroleos Mexi",
+          "date": "10/15/2014 04:30 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id39",
+      "res_thread": 3,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/14/2014 05:27 PM",
+      "res_title": "WMP Dub ELD JPY Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "WMP Dub ELD JPY Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15968",
+          "date": "10/14/2014 05:27 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "WMP Dub ELD JPY Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13779",
+          "date": "09/12/2014 01:50 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "WMP Dub ELD JPY Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP Dub ELD JPY Monthly Letter",
+          "date": "08/13/2014 05:36 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id40",
+      "res_thread": 5,
+      "res_author": "Chin, Ignatius",
+      "res_date": "10/14/2014 01:50 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-09",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15949",
+          "date": "10/14/2014 01:50 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15867",
+          "date": "10/14/2014 06:31 AM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15866",
+          "date": "10/14/2014 06:29 AM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15515",
+          "date": "10/08/2014 04:11 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-09",
+          "date": "09/29/2014 01:56 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id41",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/13/2014 06:01 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-09",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15830",
+          "date": "10/13/2014 06:01 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-09",
+          "date": "10/03/2014 02:04 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id42",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/10/2014 07:54 PM",
+      "res_title": "NRKN ELD Monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "NRKN ELD Monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD Monthly letter 1801",
+          "date": "10/10/2014 07:54 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id43",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/08/2014 07:17 PM",
+      "res_title": "Nikko ELILD Monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD Monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD Monthly letter 1594",
+          "date": "10/08/2014 07:17 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id44",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/08/2014 07:09 PM",
+      "res_title": "NRKN EMD Monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "NRKN EMD Monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN EMD Monthly letter 6165",
+          "date": "10/08/2014 07:09 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id45",
+      "res_thread": 1,
+      "res_author": "Hernandez, Cristina A",
+      "res_date": "10/08/2014 03:15 PM",
+      "res_title": "OPERF Information Request",
+      "res_email_list": [
+        {
+          "author": "Hernandez, Cristina A",
+          "title": "FW: OPERF Information Request",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/OPERF Information Request",
+          "date": "10/08/2014 03:15 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id46",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "10/08/2014 07:34 AM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-09",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 2014-09",
+          "date": "10/08/2014 07:34 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id47",
+      "res_thread": 1,
+      "res_author": "Tipnis, Ketki",
+      "res_date": "10/07/2014 07:50 PM",
+      "res_title": "Mizuho EMD monthly letter",
+      "res_email_list": [
+        {
+          "author": "Tipnis, Ketki",
+          "title": "Mizuho EMD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Mizuho EMD monthly letter 4233",
+          "date": "10/07/2014 07:50 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id48",
+      "res_thread": 3,
+      "res_author": "Chin, Ignatius",
+      "res_date": "10/07/2014 04:56 PM",
+      "res_title": "Additional Request: <Data Request> Global Bond Attribution Analysis for 2014-09",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: Additional Request: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15406",
+          "date": "10/07/2014 04:56 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: Additional Request: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15387",
+          "date": "10/07/2014 03:46 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "Additional Request: <Data Request> Global Bond Attribution Analysis for 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Additional Request Data Request Global Bond Attribution Analysis for 2014-09",
+          "date": "10/06/2014 02:27 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id49",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "10/06/2014 03:13 PM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-09",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Kokusai ELD 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=15288",
+          "date": "10/06/2014 03:13 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-09",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-09",
+          "date": "10/02/2014 04:26 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id50",
+      "res_thread": 6,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "10/06/2014 02:00 PM",
+      "res_title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston Final attendee list and post-event content",
+          "date": "10/06/2014 02:00 PM"
+        },
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston – 125 clients registered – Two weeks and counting – Final push",
+          "date": "09/17/2014 03:28 PM"
+        },
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston – Current registration and invitation mailing",
+          "date": "09/11/2014 11:00 AM"
+        },
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston – Four weeks and counting – Current registration and invitation",
+          "date": "09/03/2014 04:20 PM"
+        },
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston (Wed, Oct. 1 - Thu, Oct. 2) – Current registration and invitation mailing",
+          "date": "08/27/2014 10:01 AM"
+        },
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "You’re invited: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston (Wed, Oct. 1 - Thu, Oct. 2) – Agenda and invitation mailing",
+          "date": "08/11/2014 10:16 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id51",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "10/05/2014 08:45 PM",
+      "res_title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Oct 10th",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Oct 10th",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Transaction Commentary Update request NRKN EMD, 9574, Due Oct 10th",
+          "date": "10/05/2014 08:45 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id52",
+      "res_thread": 1,
+      "res_author": "Eastman, Jason C",
+      "res_date": "10/02/2014 03:32 PM",
+      "res_title": "MTL | OE | Monthly Review of Underlying PM Positioning Changes in OE | Sept 2014",
+      "res_email_list": [
+        {
+          "author": "Eastman, Jason C",
+          "title": "MTL | OE | Monthly Review of Underlying PM Positioning Changes in OE | Sept 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  AA/MTL  OE  Monthly Review of Underlying PM Positioning Changes in OE  Sept 2014",
+          "date": "10/02/2014 03:32 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id53",
+      "res_thread": 2,
+      "res_author": "Klocek, James M",
+      "res_date": "09/26/2014 03:36 PM",
+      "res_title": "1y ATMS BRL call USD put",
+      "res_email_list": [
+        {
+          "author": "Klocek, James M",
+          "title": "RE: 1y ATMS BRL call USD put",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=14678",
+          "date": "09/26/2014 03:36 PM"
+        },
+        {
+          "author": "Merriweather, Shane",
+          "title": "RE: 1y ATMS BRL call USD put",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=14674",
+          "date": "09/26/2014 02:44 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id54",
+      "res_thread": 1,
+      "res_author": "Leonard, Neil J",
+      "res_date": "09/26/2014 10:06 AM",
+      "res_title": "Research Forum Boston (1–2 October 2014) – View the agenda and Register",
+      "res_email_list": [
+        {
+          "author": "Leonard, Neil J",
+          "title": "Research Forum Boston (1–2 October 2014) – View the agenda and Register",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/RSVP Update Research Forum --October 1st and 2nd",
+          "date": "09/26/2014 10:06 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id55",
+      "res_thread": 1,
+      "res_author": "Shey, Valerie",
+      "res_date": "09/25/2014 11:04 AM",
+      "res_title": "Confidential - New addition to EMD investment team",
+      "res_email_list": [
+        {
+          "author": "Shey, Valerie",
+          "title": "FW: Confidential - New addition to EMD investment team",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=14557",
+          "date": "09/25/2014 11:04 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id56",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "09/25/2014 05:55 AM",
+      "res_title": "ad-hoc question: 21st century fox (background of major contribution in August in account #4P42)",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "ad-hoc question: 21st century fox (background of major contribution in August in account #4P42)",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/ad-hoc question 21st century fox (background of major contribution in August in account 4P42)",
+          "date": "09/25/2014 05:55 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id57",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "09/11/2014 02:31 PM",
+      "res_title": "View the replay: Inflation Hedging Strategies webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "View the replay: Inflation Hedging Strategies webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Webcast replay - Inflation Hedging Strategies 4055",
+          "date": "09/11/2014 02:31 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id58",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "09/10/2014 06:31 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-08",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13594",
+          "date": "09/10/2014 06:31 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-08",
+          "date": "09/02/2014 08:59 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id59",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "09/09/2014 06:10 PM",
+      "res_title": "Nikko ELILD monthly,semi-annual, & annual letters",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD monthly,semi-annual, & annual letters",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD monthly,semi-annual,  annual letters",
+          "date": "09/09/2014 06:10 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id60",
+      "res_thread": 3,
+      "res_author": "Chin, Ignatius",
+      "res_date": "09/09/2014 02:12 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-08",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13475",
+          "date": "09/09/2014 02:12 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13361",
+          "date": "09/08/2014 11:43 AM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-08",
+          "date": "08/27/2014 09:08 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id61",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "09/09/2014 06:11 AM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-08",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 2014-08",
+          "date": "09/09/2014 06:11 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id62",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "09/09/2014 05:40 AM",
+      "res_title": "[Monthly Request] MUAM US IG intermediate (4P42) 2014-08 monthly letter",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US IG intermediate (4P42) 2014-08 monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US IG intermediate (4P42) 2014-08 monthly letter",
+          "date": "09/09/2014 05:40 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id63",
+      "res_thread": 4,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "09/08/2014 06:32 PM",
+      "res_title": "Nikko ELILD monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13400",
+          "date": "09/08/2014 06:32 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD monthly letter 2914",
+          "date": "08/08/2014 02:52 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9371",
+          "date": "07/08/2014 06:25 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nikko ELILD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nikko ELILD monthly letter 7171",
+          "date": "06/09/2014 04:12 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id64",
+      "res_thread": 10,
+      "res_author": "Ross, Andrew",
+      "res_date": "09/08/2014 03:04 PM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+      "res_email_list": [
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13377",
+          "date": "09/08/2014 03:04 PM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11697",
+          "date": "08/08/2014 01:11 PM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9362",
+          "date": "07/08/2014 05:31 PM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7431",
+          "date": "06/09/2014 03:30 PM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=5775",
+          "date": "05/12/2014 04:28 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=3869",
+          "date": "04/08/2014 05:52 PM"
+        },
+        {
+          "author": "Randolph, Emma",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=3817",
+          "date": "04/08/2014 05:05 AM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=3773",
+          "date": "04/07/2014 04:38 PM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=3592",
+          "date": "04/03/2014 10:35 AM"
+        },
+        {
+          "author": "Suzuki, Akane",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-03",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-03",
+          "date": "03/30/2014 09:23 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id65",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "09/08/2014 00:33 PM",
+      "res_title": "Reminder: Today at 3:00pm EDT: DIH webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Reminder: Today at 3:00pm EDT: DIH webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Today at 300pm EDT DIH webcast",
+          "date": "09/08/2014 00:33 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id66",
+      "res_thread": 4,
+      "res_author": "Randolph, Emma",
+      "res_date": "09/08/2014 06:49 AM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-08",
+      "res_email_list": [
+        {
+          "author": "Randolph, Emma",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13336",
+          "date": "09/08/2014 06:49 AM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13196",
+          "date": "09/04/2014 10:13 PM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13142",
+          "date": "09/04/2014 08:06 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-08",
+          "date": "08/28/2014 03:29 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id67",
+      "res_thread": 4,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "09/07/2014 09:29 PM",
+      "res_title": "Question from Honda - Argentine Bonds",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: Question from Honda - Argentine Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13321",
+          "date": "09/07/2014 09:29 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: Question from Honda - Argentine Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Question from Honda - Argentine Bonds 1143",
+          "date": "09/05/2014 01:14 PM"
+        },
+        {
+          "author": "Ross, Andrew",
+          "title": "RE: Question from Honda - Argentine Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=12991",
+          "date": "09/02/2014 05:16 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "Question from Honda - Argentine Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Question from Honda - Argentine Bonds",
+          "date": "09/02/2014 05:21 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id68",
+      "res_thread": 1,
+      "res_author": "Bloch, Christopher P",
+      "res_date": "09/05/2014 01:44 PM",
+      "res_title": "EMD and ELD Performance Spreadsheet - August 2014",
+      "res_email_list": [
+        {
+          "author": "Bloch, Christopher P",
+          "title": "EMD and ELD Performance Spreadsheet - August 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/EMD and ELD Performance Spreadsheet - August 2014",
+          "date": "09/05/2014 01:44 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id69",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "09/05/2014 10:31 AM",
+      "res_title": "Blueprint for DC plans webcast: Transcript now available",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Blueprint for DC plans webcast: Transcript now available",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Blueprint for DC plans webcast Transcript now available",
+          "date": "09/05/2014 10:31 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id70",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "09/04/2014 06:49 PM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-08",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Kokusai ELD 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=13193",
+          "date": "09/04/2014 06:49 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-08",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-08",
+          "date": "09/02/2014 01:20 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id71",
+      "res_thread": 1,
+      "res_author": "Leonard, Neil J",
+      "res_date": "09/04/2014 10:49 AM",
+      "res_title": "Research Forum Boston – Just 4 weeks away – Agenda now available",
+      "res_email_list": [
+        {
+          "author": "Leonard, Neil J",
+          "title": "Research Forum Boston – Just 4 weeks away – Agenda now available",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum -- NEW promo page for client books",
+          "date": "09/04/2014 10:49 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id72",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "08/27/2014 02:01 PM",
+      "res_title": "Action required: DIH webcast - Monday, September 8",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: DIH webcast - Monday, September 8",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required DIH webcast - Monday, September 8",
+          "date": "08/27/2014 02:01 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id73",
+      "res_thread": 1,
+      "res_author": "Madden, Courtney B",
+      "res_date": "08/22/2014 03:50 PM",
+      "res_title": "MTL 48B9: Muni Classifications",
+      "res_email_list": [
+        {
+          "author": "Madden, Courtney B",
+          "title": "MTL 48B9: Muni Classifications",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/MTL 48B9 Muni Classifications",
+          "date": "08/22/2014 03:50 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id74",
+      "res_thread": 1,
+      "res_author": "Hennessy, Sean P",
+      "res_date": "08/14/2014 08:27 AM",
+      "res_title": "MSCI 2014 August Quarterly Index Review",
+      "res_email_list": [
+        {
+          "author": "Hennessy, Sean P",
+          "title": "MSCI 2014 August Quarterly Index Review",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/MSCI 2014 August Quarterly Index Review",
+          "date": "08/14/2014 08:27 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id75",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "08/12/2014 06:00 PM",
+      "res_title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Aug 12th",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Transaction Commentary Update request> NRKN EMD, 9574, Due: Aug 12th",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11916",
+          "date": "08/12/2014 06:00 PM"
+        },
+        {
+          "author": "Miura, Saiko",
+          "title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Aug 12th",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Transaction Commentary Update request NRKN EMD, 9574, Due Aug 12th",
+          "date": "08/05/2014 08:53 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id76",
+      "res_thread": 1,
+      "res_author": "Waine, Andrew",
+      "res_date": "08/12/2014 06:53 AM",
+      "res_title": "Subprime flag in Orbit?",
+      "res_email_list": [
+        {
+          "author": "Waine, Andrew",
+          "title": "RE: Subprime flag in Orbit?",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11848",
+          "date": "08/12/2014 06:53 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id77",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "08/11/2014 04:43 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-07",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11809",
+          "date": "08/11/2014 04:43 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-07",
+          "date": "08/04/2014 10:48 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id78",
+      "res_thread": 6,
+      "res_author": "Hnat-Dembitz, Marena",
+      "res_date": "08/08/2014 09:12 AM",
+      "res_title": "[QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+      "res_email_list": [
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: [QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11663",
+          "date": "08/08/2014 09:12 AM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: [QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11251",
+          "date": "08/01/2014 05:12 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: [QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11169",
+          "date": "08/01/2014 02:37 AM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: [QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11142",
+          "date": "07/31/2014 05:59 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: [QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10147",
+          "date": "07/17/2014 05:10 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "[QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[QE Requirements for EMD] Honda EMD (GHONEM) 2014 04-06",
+          "date": "07/14/2014 02:55 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id79",
+      "res_thread": 3,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "08/07/2014 08:28 PM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-07",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11629",
+          "date": "08/07/2014 08:28 PM"
+        },
+        {
+          "author": "Randolph, Emma",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11480",
+          "date": "08/06/2014 09:13 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-07",
+          "date": "07/30/2014 08:08 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id80",
+      "res_thread": 1,
+      "res_author": "Bloch, Christopher P",
+      "res_date": "08/07/2014 04:23 PM",
+      "res_title": "EMD and ELD Performance Spreadsheet - July 2014",
+      "res_email_list": [
+        {
+          "author": "Bloch, Christopher P",
+          "title": "EMD and ELD Performance Spreadsheet - July 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/EMD and ELD Performance Spreadsheet - July 2014",
+          "date": "08/07/2014 04:23 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id81",
+      "res_thread": 2,
+      "res_author": "Chin, Ignatius",
+      "res_date": "08/07/2014 02:13 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-07",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11589",
+          "date": "08/07/2014 02:13 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-07",
+          "date": "07/31/2014 04:01 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id82",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "08/07/2014 04:16 AM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-07",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 2014-07",
+          "date": "08/07/2014 04:16 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id83",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "08/06/2014 05:56 PM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-07",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Kokusai ELD 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11514",
+          "date": "08/06/2014 05:56 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-07",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-07",
+          "date": "08/04/2014 01:48 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id84",
+      "res_thread": 1,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "08/05/2014 06:03 PM",
+      "res_title": "Nomura EMD monthly letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "Nomura EMD monthly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Nomura EMD monthly letter 2293",
+          "date": "08/05/2014 06:03 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id85",
+      "res_thread": 2,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "08/01/2014 02:37 AM",
+      "res_title": "Honda EMD Strategy Slide",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: Honda EMD Strategy Slide",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=11170",
+          "date": "08/01/2014 02:37 AM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: Honda EMD Strategy Slide",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda EMD Strategy Slide",
+          "date": "07/31/2014 05:52 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id86",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "07/28/2014 10:16 AM",
+      "res_title": "Replay available: LDI Quarterly webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Replay available: LDI Quarterly webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Replay available LDI Quarterly webcast 5759",
+          "date": "07/28/2014 10:16 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id87",
+      "res_thread": 1,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "07/25/2014 03:16 AM",
+      "res_title": "EMD Commentary: Argentina",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: EMD Commentary: Argentina",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/EMD Commentary Argentina",
+          "date": "07/25/2014 03:16 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id88",
+      "res_thread": 4,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "07/24/2014 06:05 PM",
+      "res_title": "<Quarterly Requirement> SMTB client format spread sheet for EMD/ELD/OEMD",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Quarterly Requirement> SMTB client format spread sheet for EMD/ELD/OEMD",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10672",
+          "date": "07/24/2014 06:05 PM"
+        },
+        {
+          "author": "Harada, Masaaki",
+          "title": "<Quarterly Requirement> SMTB client format spread sheet for EMD/ELD/OEMD",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Quarterly Requirement SMTB client format spread sheet for EMDELDOEMD 6466",
+          "date": "07/22/2014 05:37 AM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Quarterly Requirement> SMTB client format spread sheet for EMD/ELD/OEMD",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=4845",
+          "date": "04/25/2014 04:50 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Quarterly Requirement> SMTB client format spread sheet for EMD/ELD/OEMD",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Quarterly Requirement SMTB client format spread sheet for EMDELDOEMD",
+          "date": "04/21/2014 10:21 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id89",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "07/24/2014 11:31 AM",
+      "res_title": "Today at 2:00 pm EDT: LDI Quarterly Webcast",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Today at 2:00 pm EDT: LDI Quarterly Webcast",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Today at 200pm EDT LDI Quarterly webcast",
+          "date": "07/24/2014 11:31 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id90",
+      "res_thread": 10,
+      "res_author": "Gelwick, Robert M",
+      "res_date": "07/23/2014 09:05 AM",
+      "res_title": "Honda Pension Fund: Global Opportunities mandate awarded",
+      "res_email_list": [
+        {
+          "author": "Gelwick, Robert M",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10505",
+          "date": "07/23/2014 09:05 AM"
+        },
+        {
+          "author": "Gelwick, Robert M",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/DispForm.aspx?ID=2589",
+          "date": "07/23/2014 09:05 AM"
+        },
+        {
+          "author": "Yamamoto, Keishi",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10475",
+          "date": "07/22/2014 11:03 PM"
+        },
+        {
+          "author": "Yamamoto, Keishi",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/DispForm.aspx?ID=2583",
+          "date": "07/22/2014 11:03 PM"
+        },
+        {
+          "author": "Niwa, Kazu",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10474",
+          "date": "07/22/2014 10:54 PM"
+        },
+        {
+          "author": "Niwa, Kazu",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/DispForm.aspx?ID=2582",
+          "date": "07/22/2014 10:54 PM"
+        },
+        {
+          "author": "Mori, Shuji",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=10469",
+          "date": "07/22/2014 10:10 PM"
+        },
+        {
+          "author": "Mori, Shuji",
+          "title": "RE: Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/DispForm.aspx?ID=2581",
+          "date": "07/22/2014 10:10 PM"
+        },
+        {
+          "author": "Kamo, Taro",
+          "title": "Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda Pension Fund Global Opportunities mandate awarded",
+          "date": "07/22/2014 09:49 PM"
+        },
+        {
+          "author": "Kamo, Taro",
+          "title": "Honda Pension Fund: Global Opportunities mandate awarded",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Honda Pension Fund Global Opportunities mandate awarded",
+          "date": "07/22/2014 09:49 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id91",
+      "res_thread": 1,
+      "res_author": "Gukasyan, Tigran",
+      "res_date": "07/17/2014 06:10 PM",
+      "res_title": "Honda CPF EMD Quarterly letter",
+      "res_email_list": [
+        {
+          "author": "Gukasyan, Tigran",
+          "title": "Honda CPF EMD Quarterly letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda CPF EMD Quarterly letter",
+          "date": "07/17/2014 06:10 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id92",
+      "res_thread": 6,
+      "res_author": "Huber, Michael",
+      "res_date": "07/15/2014 10:21 AM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+      "res_email_list": [
+        {
+          "author": "Huber, Michael",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9889",
+          "date": "07/15/2014 10:21 AM"
+        },
+        {
+          "author": "Harada, Masaaki",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9876",
+          "date": "07/15/2014 07:49 AM"
+        },
+        {
+          "author": "Harada, Masaaki",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9861",
+          "date": "07/15/2014 01:08 AM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-06 2888",
+          "date": "07/07/2014 02:37 PM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=8929",
+          "date": "07/02/2014 08:45 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-06",
+          "date": "06/30/2014 00:49 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id93",
+      "res_thread": 1,
+      "res_author": "Kamo, Taro",
+      "res_date": "07/14/2014 05:35 AM",
+      "res_title": "Honda PF: Global Opportunities finals",
+      "res_email_list": [
+        {
+          "author": "Kamo, Taro",
+          "title": "Honda PF: Global Opportunities finals",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Honda PF Global Opportunities finals",
+          "date": "07/14/2014 05:35 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id94",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "07/11/2014 06:44 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-06",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9730",
+          "date": "07/11/2014 06:44 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-06",
+          "date": "07/02/2014 11:19 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id95",
+      "res_thread": 1,
+      "res_author": "Wang, Lisha",
+      "res_date": "07/11/2014 04:49 AM",
+      "res_title": "BLI quarterly portfolio review stock commentary by 18th July HK time",
+      "res_email_list": [
+        {
+          "author": "Wang, Lisha",
+          "title": "RE: BLI quarterly portfolio review stock commentary by 18th July HK time",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/BLI quarterly portfolio review stock commentary by 18th July HK time",
+          "date": "07/11/2014 04:49 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id96",
+      "res_thread": 4,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "07/10/2014 08:22 PM",
+      "res_title": "NRKN ELD Monthly Letter",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "NRKN ELD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD Monthly Letter 2630",
+          "date": "07/10/2014 08:22 PM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "NRKN ELD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD Monthly Letter 2170",
+          "date": "05/14/2014 05:24 PM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "NRKN ELD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD Monthly Letter 6476",
+          "date": "03/12/2014 04:29 PM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "NRKN ELD Monthly Letter",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/NRKN ELD Monthly Letter",
+          "date": "02/13/2014 02:57 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id97",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "07/10/2014 00:30 PM",
+      "res_title": "Action required: LDI Quarterly webcast - July 24",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: LDI Quarterly webcast - July 24",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required LDI Quarterly webcast - July 24",
+          "date": "07/10/2014 00:30 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id98",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "07/09/2014 07:04 PM",
+      "res_title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: July 10th",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Transaction Commentary Update request> NRKN EMD, 9574, Due: July 10th",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9503",
+          "date": "07/09/2014 07:04 PM"
+        },
+        {
+          "author": "Miura, Saiko",
+          "title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: July 10th",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Transaction Commentary Update request NRKN EMD, 9574, Due July 10th",
+          "date": "07/07/2014 04:45 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id99",
+      "res_thread": 1,
+      "res_author": "Bloch, Christopher P",
+      "res_date": "07/08/2014 03:56 PM",
+      "res_title": "EMD and ELD Performance Spreadsheet - June 2014",
+      "res_email_list": [
+        {
+          "author": "Bloch, Christopher P",
+          "title": "EMD and ELD Performance Spreadsheet - June 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/EMD and ELD Performance Spreadsheet - June 2014",
+          "date": "07/08/2014 03:56 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id100",
+      "res_thread": 5,
+      "res_author": "Chin, Ignatius",
+      "res_date": "07/08/2014 06:35 AM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-06",
+      "res_email_list": [
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9267",
+          "date": "07/08/2014 06:35 AM"
+        },
+        {
+          "author": "Okuno, Masaki",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9236",
+          "date": "07/07/2014 10:21 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9211",
+          "date": "07/07/2014 03:55 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=9125",
+          "date": "07/04/2014 04:16 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-06",
+          "date": "06/30/2014 04:20 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id101",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "07/08/2014 02:06 AM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-06",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 2014-06",
+          "date": "07/08/2014 02:06 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id102",
+      "res_thread": 1,
+      "res_author": "Kobayashi, Maiko",
+      "res_date": "07/02/2014 01:02 AM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-06",
+      "res_email_list": [
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-06",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-06",
+          "date": "07/02/2014 01:02 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id103",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/24/2014 10:30 AM",
+      "res_title": "Replay available: A blueprint for better target-date portfolios and retirement outcomes",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Replay available: A blueprint for better target-date portfolios and retirement outcomes",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Webcast replay A blueprint for better target-date portfolios and retirement outcomes",
+          "date": "06/24/2014 10:30 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id104",
+      "res_thread": 1,
+      "res_author": "Geraci, Christina R",
+      "res_date": "06/24/2014 08:09 AM",
+      "res_title": "fx snippets & headliners - taking it slow and easy - dxy -0..04%",
+      "res_email_list": [
+        {
+          "author": "Geraci, Christina R",
+          "title": "fx snippets & headliners - taking it slow and easy - dxy -0..04%",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/fx snippets  headliners - taking it slow and easy - dxy -0.04",
+          "date": "06/24/2014 08:09 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id105",
+      "res_thread": 3,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "06/23/2014 04:22 PM",
+      "res_title": "[Overnight request] RE: Honda EMD (3P76) India Local Bonds",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: [Overnight request] RE: Honda EMD (3P76) India Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=8293",
+          "date": "06/23/2014 04:22 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: [Overnight request] RE: Honda EMD (3P76) India Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=8222",
+          "date": "06/20/2014 05:12 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "[Overnight request] RE: Honda EMD (3P76) India Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Overnight request] RE Honda EMD (3P76) India Local Bonds",
+          "date": "06/20/2014 05:00 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id106",
+      "res_thread": 4,
+      "res_author": "Hnat-Dembitz, Marena",
+      "res_date": "06/23/2014 08:25 AM",
+      "res_title": "Honda commentary on the top/bottom 6th-10th contributors",
+      "res_email_list": [
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: Honda commentary on the top/bottom 6th-10th contributors",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=5229",
+          "date": "06/23/2014 08:25 AM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "RE: Honda commentary on the top/bottom 6th-10th contributors",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=4999",
+          "date": "04/29/2014 09:29 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: Honda commentary on the top/bottom 6th-10th contributors",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=4965",
+          "date": "04/29/2014 11:11 AM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "Honda commentary on the top/bottom 6th-10th contributors",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda commentary on the topbottom 6th-10th contributors",
+          "date": "04/29/2014 11:07 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id107",
+      "res_thread": 4,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "06/19/2014 06:08 PM",
+      "res_title": "Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "Re: Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=8142",
+          "date": "06/19/2014 06:08 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=8129",
+          "date": "06/19/2014 03:11 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "Re: Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda EMD (3P76) India Local Bonds - Due 19th June Thursday 1339",
+          "date": "06/19/2014 06:17 AM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda EMD (3P76) India Local Bonds - Due 19th June Thursday",
+          "date": "06/17/2014 06:38 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id108",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/19/2014 11:01 AM",
+      "res_title": "Reminder: Webcast today at 2:00pm EDT: “A blueprint for better target-date portfolios and retirement outcomes”",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Reminder: Webcast today at 2:00pm EDT: “A blueprint for better target-date portfolios and retirement outcomes”",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Webcast today at 200pm EDT “A blueprint for better target-date portfolios and retirement outcomes”",
+          "date": "06/19/2014 11:01 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id109",
+      "res_thread": 1,
+      "res_author": "Murphy, John J Im",
+      "res_date": "06/16/2014 10:59 AM",
+      "res_title": "Replay available - Emerging debt markets: Behind the headlines",
+      "res_email_list": [
+        {
+          "author": "Murphy, John J Im",
+          "title": "Replay available - Emerging debt markets: Behind the headlines",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Replay Available Emerging debt markets Behind the headlines",
+          "date": "06/16/2014 10:59 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id110",
+      "res_thread": 1,
+      "res_author": "Giberti, Matthew",
+      "res_date": "06/12/2014 00:56 PM",
+      "res_title": "Reminder: Webcast today at 3:00pm EDT: “Emerging debt markets: Behind the headlines”",
+      "res_email_list": [
+        {
+          "author": "Giberti, Matthew",
+          "title": "Reminder: Webcast today at 3:00pm EDT: “Emerging debt markets: Behind the headlines”",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Webcast today at 300pm EDT “Emerging debt markets Behind the headlines”",
+          "date": "06/12/2014 00:56 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id111",
+      "res_thread": 3,
+      "res_author": "Ogikubo, Mizuho",
+      "res_date": "06/11/2014 08:20 PM",
+      "res_title": "Honda EMD (3P76) Serbia Local Bonds",
+      "res_email_list": [
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "RE: Honda EMD (3P76) Serbia Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7636",
+          "date": "06/11/2014 08:20 PM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: Honda EMD (3P76) Serbia Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7627",
+          "date": "06/11/2014 05:15 PM"
+        },
+        {
+          "author": "Ogikubo, Mizuho",
+          "title": "Honda EMD (3P76) Serbia Local Bonds",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Honda EMD (3P76) Serbia Local Bonds",
+          "date": "06/11/2014 03:42 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id112",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "06/11/2014 05:32 PM",
+      "res_title": "<Monthly Requirement> Nomura ELD 2014-05",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Nomura ELD 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7628",
+          "date": "06/11/2014 05:32 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Nomura ELD 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Nomura ELD 2014-05",
+          "date": "06/03/2014 10:44 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id113",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "06/11/2014 05:10 PM",
+      "res_title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Jun-11",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Transaction Commentary Update request> NRKN EMD, 9574, Due: Jun-11",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7625",
+          "date": "06/11/2014 05:10 PM"
+        },
+        {
+          "author": "Aikawa, Tatsuya",
+          "title": "<Transaction Commentary Update request> NRKN EMD, 9574, Due: Jun-11",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Transaction Commentary Update request NRKN EMD, 9574, Due Jun-11",
+          "date": "06/05/2014 03:32 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id114",
+      "res_thread": 4,
+      "res_author": "Sheehy, Elizabeth B",
+      "res_date": "06/11/2014 00:33 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for 2014-05",
+      "res_email_list": [
+        {
+          "author": "Sheehy, Elizabeth B",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7602",
+          "date": "06/11/2014 00:33 PM"
+        },
+        {
+          "author": "Sheehy, Elizabeth B",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7439",
+          "date": "06/09/2014 04:42 PM"
+        },
+        {
+          "author": "Chin, Ignatius",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7238",
+          "date": "06/05/2014 11:47 AM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "<Data Request> Global Bond Attribution Analysis for 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for 2014-05",
+          "date": "05/29/2014 09:28 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id115",
+      "res_thread": 4,
+      "res_author": "Odence, Charles L",
+      "res_date": "06/10/2014 01:41 PM",
+      "res_title": "WMP OEMD JPY Monthly",
+      "res_email_list": [
+        {
+          "author": "Odence, Charles L",
+          "title": "WMP OEMD JPY Monthly",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP OEMD JPY Monthly 2859",
+          "date": "06/10/2014 01:41 PM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "WMP OEMD JPY Monthly",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP OEMD JPY Monthly 1785",
+          "date": "05/12/2014 05:07 PM"
+        },
+        {
+          "author": "Odence, Charles L",
+          "title": "WMP OEMD JPY Monthly",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP OEMD JPY Monthly 1522",
+          "date": "04/09/2014 01:23 PM"
+        },
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "WMP OEMD JPY Monthly",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/WMP OEMD JPY Monthly",
+          "date": "02/12/2014 08:54 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id116",
+      "res_thread": 5,
+      "res_author": "Randolph, Emma",
+      "res_date": "06/10/2014 09:29 AM",
+      "res_title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+      "res_email_list": [
+        {
+          "author": "Randolph, Emma",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7474",
+          "date": "06/10/2014 09:29 AM"
+        },
+        {
+          "author": "Lord, Jeanne A",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7142",
+          "date": "06/04/2014 08:38 AM"
+        },
+        {
+          "author": "Hnat-Dembitz, Marena",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-05 7696",
+          "date": "06/03/2014 01:41 PM"
+        },
+        {
+          "author": "Saito, Tatsumi",
+          "title": "RE: <Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-05 5623",
+          "date": "05/22/2014 11:22 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly & Quarterly Requirement> Tokyo EMD/ELD/ELCD accounts 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly  Quarterly Requirement Tokyo EMDELDELCD accounts 2014-05",
+          "date": "05/22/2014 10:54 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id117",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/09/2014 09:17 AM",
+      "res_title": "Spring Seminar webcast series: Replays now available",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Spring Seminar webcast series: Replays now available",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Spring Seminar webcast series Replays and viewership",
+          "date": "06/09/2014 09:17 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id118",
+      "res_thread": 1,
+      "res_author": "Miura, Saiko",
+      "res_date": "06/08/2014 10:07 PM",
+      "res_title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014/05",
+      "res_email_list": [
+        {
+          "author": "Miura, Saiko",
+          "title": "[Monthly Request] MUAM US Credit Mix(0223) letter 2014/05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/[Monthly Request] MUAM US Credit Mix(0223) letter 201405",
+          "date": "06/08/2014 10:07 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id119",
+      "res_thread": 1,
+      "res_author": "Epee-Bounya, Sam",
+      "res_date": "06/06/2014 11:04 AM",
+      "res_title": "PEMEX CONSENT: Offer document for Petroleos consent offer",
+      "res_email_list": [
+        {
+          "author": "Epee-Bounya, Sam",
+          "title": "PEMEX CONSENT: Offer document for Petroleos consent offer",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/PEMEX CONSENT Offer document for Petroleos consent offer",
+          "date": "06/06/2014 11:04 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id120",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/06/2014 10:02 AM",
+      "res_title": "Action required: \"A blueprint for better target-date portfolios and retirement outcomes” webcast - Thursday, June 19",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: \"A blueprint for better target-date portfolios and retirement outcomes” webcast - Thursday, June 19",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required A blueprint for better target-date portfolios and retirement outcomes” webcast - Thursday, June 19",
+          "date": "06/06/2014 10:02 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id121",
+      "res_thread": 2,
+      "res_author": "Nahapetyan, Vahan",
+      "res_date": "06/05/2014 06:32 PM",
+      "res_title": "<Monthly Requirement> Kokusai ELD 2014-05",
+      "res_email_list": [
+        {
+          "author": "Nahapetyan, Vahan",
+          "title": "RE: <Monthly Requirement> Kokusai ELD 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/DispForm.aspx?ID=7269",
+          "date": "06/05/2014 06:32 PM"
+        },
+        {
+          "author": "Kobayashi, Maiko",
+          "title": "<Monthly Requirement> Kokusai ELD 2014-05",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Monthly Requirement Kokusai ELD 2014-05",
+          "date": "06/03/2014 02:32 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id122",
+      "res_thread": 1,
+      "res_author": "Bloch, Christopher P",
+      "res_date": "06/05/2014 02:38 PM",
+      "res_title": "EMD and ELD Performance Spreadsheet - May 2014",
+      "res_email_list": [
+        {
+          "author": "Bloch, Christopher P",
+          "title": "EMD and ELD Performance Spreadsheet - May 2014",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/EMD and ELD Performance Spreadsheet - May 2014",
+          "date": "06/05/2014 02:38 PM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id123",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/05/2014 11:31 AM",
+      "res_title": "Save the Date: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Save the Date: Research Forum Boston – Wednesday, October 1 – Thursday, October 2",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Research Forum Boston (Wed, Oct. 1 - Thu, Oct. 2) – Client-ready Save the Date",
+          "date": "06/05/2014 11:31 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id124",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/05/2014 09:01 AM",
+      "res_title": "Reminder: Live webcast today at 1pm ET: \"Contrarian investing…without getting fired",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Reminder: Live webcast today at 1pm ET: \"Contrarian investing…without getting fired",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Reminder Live webcast today at 1pm ET Contrarian investing…without getting fired",
+          "date": "06/05/2014 09:01 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id125",
+      "res_thread": 1,
+      "res_author": "Weisberg, Gwen M",
+      "res_date": "06/03/2014 09:57 AM",
+      "res_title": "Action required: “Emerging debt markets: Behind the headlines” webcast - Thursday, June 12",
+      "res_email_list": [
+        {
+          "author": "Weisberg, Gwen M",
+          "title": "Action required: “Emerging debt markets: Behind the headlines” webcast - Thursday, June 12",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  EQ/Action required “Emerging debt markets Behind the headlines” webcast - Thursday, June 12",
+          "date": "06/03/2014 09:57 AM"
+        }
+      ]
+    },
+    {
+      "res_id": "grp_id214",
+      "res_thread": 1,
+      "res_author": "Sheehy, Elizabeth B",
+      "res_date": "11/08/2013 04:10 PM",
+      "res_title": "<Data Request> Global Bond Attribution Analysis for monthly 2013-10",
+      "res_email_list": [
+        {
+          "author": "Sheehy, Elizabeth B",
+          "title": "RE: <Data Request> Global Bond Attribution Analysis for monthly 2013-10",
+          "link": "http://spapp.wellmanage.com/apps/scr/Lists/SKM  GFI/Data Request Global Bond Attribution Analysis for monthly 2013-10",
+          "date": "11/08/2013 04:10 PM"
+        }
+      ]
+    }
+  ]
+}

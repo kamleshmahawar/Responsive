@@ -1,0 +1,85 @@
+  <!-- Start : result table  -->
+    <div class="table-responsive desktopView" ng-cloak>
+       <table class="table">
+            <thead>
+                <tr>
+                    <th> 
+                        <b>Approach Name</b>
+                    </th> 
+                    <th> 
+                         <b>Asset Class</b>
+                    </th> 
+                     <th> 
+                        <b>Approach Type</b>
+                    </th> 
+                     <th> 
+                        <b>Approach Status</b>
+                    </th> 
+                    <th> 
+                        <b>Approach Lead Composite</b>
+                    </th> 
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat = "result in resultData.displayResult" >
+                    <td>
+                       <a href="{{result.approach_accessUrl}}" target="_blank">{{result.approach_name}}</a>
+                     
+                    </td>
+
+                    <td>
+                       {{result.approach_assetClass}}
+                       
+                    </td>
+                    <td>
+                     {{result.approach_type}}
+                       
+                    </td> 
+                    <td>
+                       {{result.approach_status}}
+                      
+                    </td>
+                    <td>
+                       {{result.approach_leadcomposite}}
+                      
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>     
+    <!-- End : result table  -->
+    
+    <!--  Start : result table , mobile view -->
+         <div class="mobileView">
+       <accordion close-others="true">
+          <accordion-group  ng-repeat = "result in resultData.displayResult" >
+              <accordion-heading>
+                  <div class="accordion-heading-content pointer" ng:class="{collapsed: section.isOpen}">
+                    <span class="wrap-text">{{result.approach_name}}</span>
+                  </div>
+              </accordion-heading>
+              <accordion-body>
+                  <div  class="secondary-text">
+                      <b>Asset Class :</b> {{result.approach_assetClass}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Type :</b> {{result.approach_type}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Status :</b>{{result.approach_status}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Lead Composite :</b>{{result.approach_leadcomposite}}
+                  </div>
+              </accordion-body>
+          </accordion-group>
+      </accordion>
+    </div>
+    <!--  end : result table , mobile view -->
+  </div>
+  <!-- End : content divison , contains filter button + result table -->
+
+  <div ng-include="'js/templates/popupTemplate.html'"></div>

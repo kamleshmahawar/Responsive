@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" ng-app="skm">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=100" />
+    <title>SKM Search</title>    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    
+  <script src="lib/jquery.js"></script>
+  <script src="lib/angular/angular.js"></script> 
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="lib/bootstrap.js"></script>
+  <script src="lib/angular/ui-bootstrap-tpls-0.9.0.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/controllers/MainSearchController.js"></script>
+  <script src="js/controllers/ModalController.js"></script>
+  <script src="js/services/EmailSearchService.js"></script>
+  <script src="js/util/popup-modal.js"></script>
+  <script src="js/filters/dateFilter.js"></script>
+  <script src="js/filters/adhocStringReplacementFilter.js"></script>
+  <script src="js/directives/filterDirective.js"></script>
+
+
+</head>
+
+<body ng-controller="mainSearchController" data-spy="scroll" data-target=".bs-docs-sidebar" >
+
+  <!-- Start :  Navigation bar   -->
+
+   
+   
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed margin-top-20"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+            
+            <form class="navbar-form navbar-left" role="search">
+              <div class="navbar-group input-group logoMargin">
+                   <span class="input-group-addon pointer"> 
+               <b>SKM</b>
+           </span>
+                  <input type="text" class="form-control" placeholder="Search" ng-model='query'>
+                  <span class="input-group-addon pointer" ng-click='search(true)'>
+                         <img src="img/search_icon.gif"/>
+                  </span>
+              </div>
+            </form>
+          </div>
+          
+
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="mobileMenu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#/approchSearch">Approaches</a></li>
+              <li><a href="#/productSearch">Products</a></li>
+              <li><a href="#/documentSearch">Documents</a></li>
+              <li><a href="#/vehicleSearch">Vehicles</a></li>
+              <li><a href="#/emailSearch">Emails</a></li>
+             
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+   
+   
+      
+      <!-- End :  Navigation bar  -->
+      
+
+
+<!-- Start : main content div showing facet + table  -->
+<div class="container" style="margin-top:75px;">
+
+         <img alt="Loading.." src="img/spinner3.gif"  ng:class="{hiddenElement : hideSpinner}">
+         
+<!-- Start : content divison , contains filter button + result table -->
+ <div  ng-hide="emptyPage">
+ 
+ 
+          <!-- Start : Filters  -->
+          <table class="filterClass">
+            <tr>
+              <td>
+                  <div class="btn btn-default" id="popupBtn" >
+                    <img alt="Filter >>" src="img/filters.png" width="30" height="20" >
+                  </div>
+              </td>
+              <td>
+        <selectedfilter/> 
+        </td>
+            </tr>
+          </table>
+      
+
+
+
+
+
+            
+          <!-- End : Filters  -->
+
+
+    <!-- Start : result table  -->
+    <div class="table-responsive desktopView" ng-cloak>
+       <table class="table">
+            <thead>
+                <tr>
+                    <th> 
+                        <b>Approach Name</b>
+                    </th> 
+                    <th> 
+                         <b>Asset Class</b>
+                    </th> 
+                     <th> 
+                        <b>Approach Type</b>
+                    </th> 
+                     <th> 
+                        <b>Approach Status</b>
+                    </th> 
+                    <th> 
+                        <b>Approach Lead Composite</b>
+                    </th> 
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat = "result in resultData.displayResult" >
+                    <td>
+                       <a href="{{result.approach_accessUrl}}" target="_blank">{{result.approach_name}}</a>
+                     
+                    </td>
+
+                    <td>
+                       {{result.approach_assetClass}}
+                       
+                    </td>
+                    <td>
+                     {{result.approach_type}}
+                       
+                    </td> 
+                    <td>
+                       {{result.approach_status}}
+                      
+                    </td>
+                    <td>
+                       {{result.approach_leadcomposite}}
+                      
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>     
+    <!-- End : result table  -->
+    
+    <!--  Start : result table , mobile view -->
+         <div class="mobileView">
+       <accordion close-others="true">
+          <accordion-group  ng-repeat = "result in resultData.displayResult" >
+              <accordion-heading>
+                  <div class="accordion-heading-content pointer" ng:class="{collapsed: section.isOpen}">
+                    <span class="wrap-text">{{result.approach_name}}</span>
+                  </div>
+              </accordion-heading>
+              <accordion-body>
+                  <div  class="secondary-text">
+                      <b>Asset Class :</b> {{result.approach_assetClass}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Type :</b> {{result.approach_type}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Status :</b>{{result.approach_status}}
+                  </div>
+                  <div  class="secondary-text">
+                      <b>Approach Lead Composite :</b>{{result.approach_leadcomposite}}
+                  </div>
+              </accordion-body>
+          </accordion-group>
+      </accordion>
+    </div>
+    <!--  end : result table , mobile view -->
+  </div>
+  <!-- End : content divison , contains filter button + result table -->
+
+</div>
+<!-- End : main content div showing facet + table  -->
+
+
+
+       <!-- Start : facet popup , contains facet groups  -->
+     <div id="popup" class="modal">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="filter-popup-modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="filter-popup-modal-body">
+                  <accordion close-others="oneAtATime">
+                     <accordion-group
+                        ng-repeat="facetItem in resultData.facets"
+                        is-open="facetItem.isOpen">
+                        <accordion-heading>
+                           <div class="accordion-heading-content pointer"
+                              ng:class="{collapsed: section.isOpen}">
+                              {{facetItem.facet_header}}
+                           </div>
+                        </accordion-heading>
+                        <accordion-body>
+                           <div ng-repeat="facetElement in  facetItem.facet_elements" >
+                              <li ng-if="facetItem.facet_single_select" ng-click="addFacet(facetElement , selectRow , facetItem.facet_header , facetItem.facet_single_select  )">
+                                 <label>
+                                 <input type="radio" name="{{facetItem.facet_header}}">
+                                 <span  class="pointer"   ng:class="{selectFilter : selectRow }">{{facetElement}}
+                                 </span>
+                                 </label>
+                              </li>
+                              <li ng-click="addFacet(facetElement  , selectRow , facetItem.facet_header  , facetItem.facet_single_select    )" ng-if="!facetItem.facet_single_select">
+                                 <input type="checkbox" ng-model="selectRow">
+                                 <span  class="pointer" 
+                                    ng-click="selectRow = !selectRow"
+                                    ng:class="{selectFilter : selectRow }">{{facetElement}}
+                                 </span>
+                              </li>
+                           </div>
+                        </accordion-body>
+                     </accordion-group>
+                  </accordion>
+               </div>
+               <div class="filter-popup-modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"
+                     ng-click="search()">Search</button>
+                  <button class="btn btn-primary" data-dismiss="modal"
+                     ng-click="clearFilter()">Clear All</button>
+               </div>
+            </div>
+         </div>
+      </div>
+    <!-- End : facet popup , contains facet groups  -->
+    
+
+</body>
+</html>

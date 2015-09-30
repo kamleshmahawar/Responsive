@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" ng-app="skm">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=100" />
+    <title>SKM Search</title>    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    
+  <script src="lib/jquery.js"></script>
+  <script src="lib/angular/angular.js"></script>s  
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="lib/bootstrap.js"></script>
+  <script src="lib/angular/ui-bootstrap-tpls-0.9.0.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/controllers/MainSearchController.js"></script>
+  <script src="js/controllers/ModalController.js"></script>
+  <script src="js/services/EmailSearchService.js"></script>
+  <script src="js/util/popup-modal.js"></script>
+
+
+</head>
+
+<body ng-controller="mainSearchController" data-spy="scroll" data-target=".bs-docs-sidebar" >
+
+
+  <!-- Start :  Navigation bar   -->
+
+   
+   
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed margin-top-20"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+						
+						
+            <form class="navbar-form navbar-left" role="search">
+              <div class="navbar-group input-group">
+                   <span class="input-group-addon pointer"> 
+						   <b>SKM</b>
+				   </span>
+                  <input type="text" class="form-control" placeholder="Search" ng-model='query'>
+                  <span class="input-group-addon pointer" ng-click='search()'>
+                         <img src="img/search_icon.gif"/>
+                  </span>
+              </div>
+            </form>
+          </div>
+          
+
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#/approchSearch">Approaches</a></li>
+              <li><a href="#/productSearch">Products</a></li>
+              <li><a href="#/documentSearch">Documents</a></li>
+              <li><a href="#/vehicleSearch">Vehicles</a></li>
+              <li><a href="#/emailSearch">Emails</a></li>
+             
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+   
+   
+      
+      <!-- End :  Navigation bar  -->
+      
+
+
+<!-- Start : main content div showing facet + table  -->
+<div class="container" style="margin-top:100px;">
+
+         <img alt="Loading.." src="img/spinner3.gif" 	ng:class="{hiddenElement : hideSpinner}">
+
+
+
+<!-- Start : content divison , contains filter button + result table -->
+ <div  ng-hide="emptyPage">
+          <!-- Start : Filters  -->
+            <div class="btn btn-default" id="popupBtn" >
+               <img alt="Filter >>" src="img/filters.png" width="30" height="30" >
+            </div>
+             
+            
+          <!-- End : Filters  -->
+
+
+    <!-- Start : result table  -->
+    <div class="table-responsive" ng-cloak>
+       <table class="table">
+            <thead>
+                <tr>
+                    <th> 
+                        <b>Threads</b>
+                    </th> 
+                    <th> 
+                         <b>Author</b>
+                    </th> 
+                     <th> 
+                        <b>Date</b>
+                    </th> 
+                     <th> 
+                        <b>Title</b>
+                    </th> 
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat = "result in resultData.displayResult" >
+                    <td>
+                      <span ng-click="toggleRowVisibility(result.res_id)">
+                        <img src="img/plus.gif" ng-hide="rowVisibilityIndexes[result.res_id]"/>
+                        <img src="img/minus.gif" ng-show="rowVisibilityIndexes[result.res_id]"/>
+                      </span>
+                     {{result.res_thread}}
+                    </td>
+
+                    <td>
+                       {{result.res_author}}
+                       <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                         <div ng-repeat="indivisualEmail in result.res_email_list ">
+                            <div>{{indivisualEmail.author}} </div>
+                         </div>
+                       </div>
+                    </td>
+                    <td>
+                     {{result.res_date}}
+                       <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                         <div  ng-repeat="indivisualEmail in result.res_email_list ">
+                           <div >{{indivisualEmail.date}} </div>
+                          </div>
+                       </div>
+                    </td> 
+                    <td>
+                       {{result.res_title}}
+                        <div  ng-show="rowVisibilityIndexes[result.res_id]">
+                          <div  ng-repeat="indivisualEmail in result.res_email_list ">
+                              <div >
+                                 <a target="_blank" href='{{indivisualEmail.link}}'>{{indivisualEmail.title}}</a> 
+                              </div>
+                           </div> 
+                        </div>
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>     
+    <!-- End : result table  -->
+	</div>
+	<!-- End : content divison , contains filter button + result table -->
+
+</div>
+<!-- End : main content div showing facet + table  -->
+
+
+
+       <!-- Start : facet popup , contains facet groups  -->
+		<div id="popup" class="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-footer">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body ">
+						<accordion close-others="oneAtATime"> <accordion-group
+							ng-repeat="facetItem in resultData.facets"
+							is-open="facetItem.isOpen"> <accordion-heading>
+						<div class="accordion-heading-content pointer"
+							ng:class="{collapsed: section.isOpen}">
+							{{facetItem.facet_header}}</div>
+						</accordion-heading> <accordion-body>
+						<div ng-repeat="facetElement in  facetItem.facet_elements">
+							<li ng-repeat="(key,val) in  facetElement"
+								ng-click="addFacet(val , selectRow)">
+								<span
+									ng-click="selectRow = !selectRow" 
+									class="pointer"
+									ng:class="{selectFilter : selectRow }">{{key}}
+								</span>
+							</li>
+						</div>
+						</accordion-body> </accordion-group> </accordion>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"
+							ng-click="search()">Search</button>
+						<button class="btn btn-primary" data-dismiss="modal"
+							ng-click="clearFilter()">Clear All</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End : facet popup , contains facet groups  -->
+		
+		
+		
+        
+
+ 
+
+</body>
+</html>
